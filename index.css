@@ -1,0 +1,44 @@
+body{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTTOkOpVn_wCryKSv-TTMpL6uTk3JLmJTlKw&usqp=CAU");
+  background-size: cover;
+}
+.calculator {
+  width: 250px;
+  margin: 100px auto;
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#screen {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #3312eb;
+}
+
+button:hover {
+  background-color: #0bef34;
+}
+h1{
+  background: black;
+  color: rgb(238, 12, 16);
+  font-size: 30px;
+           
+}
